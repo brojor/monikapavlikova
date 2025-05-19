@@ -21,8 +21,10 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.13.1",
+    "@unocss/nuxt": "^66.1.2",
     "lint-staged": "^16.0.0",
-    "simple-git-hooks": "^2.13.0"
+    "simple-git-hooks": "^2.13.0",
+    "unocss": "^66.1.2"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"

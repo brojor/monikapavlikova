@@ -11,6 +11,6 @@ export default {
 
 <template>
   <div>
-    <h1>Hello World</h1>
+    <h1 class="text-3xl text-red-500">Hello World</h1>
   </div>
 </template>
