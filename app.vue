@@ -1,16 +1,7 @@
-<script>
-export default {
-  name: 'App',
-  data() {
-    return {
-      message: 'Hello World',
-    }
-  },
-}
-</script>
-
 <template>
-  <div>
-    <h1 class="text-3xl text-red-500">Hello World</h1>
-  </div>
+  <Html lang="cs" class="text-base font-sans">
+    <NavBar />
+    <main class="pt-12 bg-surface">
+    </main>
+  </Html>
 </template>

@@ -10,4 +10,7 @@ export default defineNuxtConfig({
       standalone: false,
     },
   },
+  css: [
+    '@unocss/reset/tailwind.css',
+  ],
 })
