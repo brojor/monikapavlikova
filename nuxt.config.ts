@@ -13,4 +13,12 @@ export default defineNuxtConfig({
   css: [
     '@unocss/reset/tailwind.css',
   ],
+  fonts: {
+    families: [
+      {
+        name: 'Playfair Display',
+        weights: [800],
+      },
+    ]
+  }
 })

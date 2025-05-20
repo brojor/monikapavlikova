@@ -11,6 +11,11 @@ export default defineConfig({
     },
     fontFamily: {
       sans: 'Inter',
+      heading: 'Playfair Display',
+      subheading: 'source-serif-4',
     },
   },
+  rules: [
+    ['header-backdrop', { '-webkit-backdrop-filter': 'saturate(180%) blur(20px)', 'backdrop-filter': 'saturate(180%) blur(20px)' }],
+  ],
 })
