@@ -3,7 +3,7 @@ import { defineConfig } from 'unocss'
 export default defineConfig({
   theme: {
     colors: {
-      base: '#1b2d45',
+      main: '#1b2d45',
       headline: '#00214d',
       primary: '#00ebc7',
       surface: '#fffffe',
@@ -16,6 +16,6 @@ export default defineConfig({
     },
   },
   rules: [
-    ['header-backdrop', { '-webkit-backdrop-filter': 'saturate(180%) blur(20px)', 'backdrop-filter': 'saturate(180%) blur(20px)' }],
+    ['header-backdrop', { '-webkit-backdrop-filter': 'blur(20px)', 'backdrop-filter': 'blur(20px)' }],
   ],
 })

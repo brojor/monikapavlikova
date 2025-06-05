@@ -12,8 +12,8 @@ function closeMenu() {
 </script>
 
 <template>
-  <nav class="fixed inset-x-0 top-0 flex transition-all duration-300 ease-out text-headline bg-background header-backdrop bg-black/10">
-    <ul id="nav-list" class=" flex-1 flex flex-col pt-12 gap-4 md:p-0 md:flex-row md:items-center md:max-w-screen-md md:mx-auto overflow-hidden transition-all duration-300 ease-out" :class="`${isMenuOpen ? 'h-64' : 'h-12'}`">
+  <nav class="fixed inset-x-0 top-0 flex transition-all duration-300 ease-out text-headline bg-background header-backdrop bg-black/10 z-10">
+    <ul class=" flex-1 flex flex-col pt-12 gap-4 md:p-0 md:flex-row md:items-center md:max-w-screen-md md:mx-auto overflow-hidden transition-all duration-300 ease-out" :class="`${isMenuOpen ? 'h-64' : 'h-12'}`">
       <li
         v-for="item in menuItems"
         :key="item"
