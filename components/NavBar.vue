@@ -1,5 +1,12 @@
 <script setup lang="ts">
-const menuItems = ['Domů', 'O mně', 'Nabízím', 'Reference', 'Kontakt']
+// const menuItems = ['Domů', 'O mně', 'Nabízím', 'Reference', 'Kontakt']
+const menuItems = [
+  { name: 'Domů', href: '#hero' },
+  { name: 'O mně', href: '#o-mne' },
+  { name: 'Nabízím', href: '#nabizim' },
+  { name: 'Reference', href: '#reference' },
+  { name: 'Kontakt', href: '#kontakt' },
+]
 const isMenuOpen = ref(false)
 
 function toggleMenu() {
@@ -16,11 +23,11 @@ function closeMenu() {
     <ul class=" flex-1 flex flex-col pt-12 gap-4 md:p-0 md:flex-row md:items-center md:max-w-screen-md md:mx-auto overflow-hidden transition-all duration-300 ease-out" :class="`${isMenuOpen ? 'h-64' : 'h-12'}`">
       <li
         v-for="item in menuItems"
-        :key="item"
+        :key="item.name"
         class="w-full transition-all duration-300 ease-out pl-12 md:pl-0 md:flex md:justify-center md:items-center"
       >
-        <NuxtLink to="/" class="nav-link" @click="closeMenu">
-          {{ item }}
+        <NuxtLink :to="item.href" class="nav-link" @click="closeMenu">
+          {{ item.name }}
         </NuxtLink>
       </li>
     </ul>

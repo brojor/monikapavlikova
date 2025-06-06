@@ -8,6 +8,8 @@ export default defineConfig({
       primary: '#00ebc7',
       surface: '#fffffe',
       muted: '#F2F4F6',
+      accent: '#fd5656',
+      accentHover: '#FC2424',
     },
     fontFamily: {
       sans: 'Inter',

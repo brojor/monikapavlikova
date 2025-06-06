@@ -1,5 +1,5 @@
 <template>
-  <section class="relative">
+  <section id="hero" class="relative">
     <picture>
       <source media="(max-width: 767px)" srcset="/hero-mobile.jpg">
       <img src="/hero-desktop.jpg" alt="Klientka při psaní">
@@ -11,7 +11,7 @@
       <p class="text-[clamp(1rem,1.75vw,1.75rem)] text-headline leading-tight max-w-1/2 md:max-w-1/3 mb-12">
         Od první myšlenky po poslední tečku. Pečuji o každé Vaše slovo s maximální pozorností.
       </p>
-      <button class="bg-[#D10002] hover:bg-[#B00003] text-white px-4 py-2 rounded-md mr-auto">
+      <button class="bg-accent hover:bg-accentHover text-white px-4 py-2 rounded-md mr-auto">
         Ozvěte se mi
       </button>
     </div>

@@ -19,6 +19,10 @@ export default defineNuxtConfig({
         name: 'Playfair Display',
         weights: [800],
       },
-    ]
-  }
+      {
+        name: 'Inter',
+        weights: [400, 500, 600, 700, 800],
+      },
+    ],
+  },
 })
