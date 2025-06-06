@@ -12,7 +12,6 @@ export default defineConfig({
     fontFamily: {
       sans: 'Inter',
       heading: 'Playfair Display',
-      subheading: 'source-serif-4',
     },
   },
   rules: [

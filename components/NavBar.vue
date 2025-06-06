@@ -24,7 +24,7 @@ function closeMenu() {
         </NuxtLink>
       </li>
     </ul>
-    <div class="md:hidden text-3xl p-2" @click="toggleMenu">
+    <div class="md:hidden text-3xl py-2 px-3" @click="toggleMenu">
       <IconMenu v-if="!isMenuOpen" />
       <IconClose v-else />
     </div>
