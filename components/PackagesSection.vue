@@ -6,20 +6,20 @@ import IconSpellcheck from './icon/Spellcheck.vue'
 const packages = [
   {
     icon: IconGlasses,
-    title: 'Beta čtení',
-    description: 'Nezávislý čtenářský pohled, který včas odhalí logické trhliny, chybné tempo, či slepá místa.',
+    title: 'Betačtení',
+    description: 'Píšete vlastní příběh a chcete, aby byl čtivý? Nejste si jistí, zda jej neokupují nelogičnosti? Určitě se ozvěte. Na Vaši otázku odpovím a ještě poradím, jak text vylepšit či oživit.',
     price: 39,
   },
   {
     icon: IconSpellcheck,
     title: 'Korektura',
-    description: 'Jazykově precizní oprava pravopisu, interpunkce a typografie pro naprosto čistý text.',
+    description: 'Máte perfektní text a chcete si být jistí, že je perfektní i co se gramatiky týče? Neváhejte a napište mi. Ráda jej zkontroluji.',
     price: 69,
   },
   {
     icon: IconPen,
     title: 'Redigace',
-    description: 'Hloubková úprava stylu a kompozice, která zajistí plynulost a přirozenost textu.',
+    description: 'Napsali jste text, který by potřeboval odborný zásah? Chcete, aby byl srozumitelný a dobře stylisticky napsaný? Svěřte mi ho. Já jej zhodnotím a nabídnu prostor pro zlepšení.',
     price: 119,
   },
 ]
@@ -50,7 +50,7 @@ const packages = [
             </small>
           </div>
           <button class="bg-accent hover:bg-accentHover text-white px-4 py-2 rounded-md mt-8">
-            Ozvězte se mi
+            Ozvěte se mi
           </button>
         </div>
       </div>
