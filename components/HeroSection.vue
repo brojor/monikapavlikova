@@ -13,9 +13,9 @@
           <p class="text-[clamp(1rem,1.5vw,1.5rem)] text-headline leading-tight max-w-1/2 md:max-w-1/3 mb-12">
             Od první myšlenky po poslední tečku. Pečuji o každé Vaše slovo s maximální pozorností.
           </p>
-          <button class="bg-accent hover:bg-accentHover text-white px-4 py-2 rounded-md mr-auto">
+          <NuxtLink to="#kontakt" class="bg-accent hover:bg-accentHover text-white px-4 py-2 rounded-md mr-auto">
             Ozvěte se mi
-          </button>
+          </NuxtLink>
         </div>
       </div>
     </div>

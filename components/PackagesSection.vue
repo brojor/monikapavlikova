@@ -51,9 +51,9 @@ const packages = [
               <small class="text-xs text-slate-700">
                 za normostranu<sup>*</sup>
               </small>
-              <button class="bg-accent hover:bg-accentHover text-white px-4 py-2 rounded-md mt-8">
+              <NuxtLink to="#kontakt" class="bg-accent hover:bg-accentHover text-white px-4 py-2 rounded-md mt-8">
                 Ozvěte se mi
-              </button>
+              </NuxtLink>
             </div>
           </div>
         </div>

@@ -49,14 +49,4 @@ const testimonials = [
   display: inline-block;
   margin-left: 4px;
 }
-
-.testimonial-text a {
-  color: #FD5657;
-  border-bottom: 1px solid rgba(253, 86, 87, .5);
-  transition: border .3s ease-in-out;
-}
-
-.testimonial-text a:hover {
-  border-bottom: 1px solid #FD5657;
-}
 </style>

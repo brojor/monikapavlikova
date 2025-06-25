@@ -6,6 +6,19 @@
       <AboutSection />
       <PackagesSection />
       <TestamonialsSection />
+      <ContactSection />
     </main>
   </Html>
 </template>
+
+<style>
+a:not(nav a) {
+  color: #FD5657;
+  border-bottom: 1px solid rgba(253, 86, 87, .5);
+  transition: border .3s ease-in-out;
+}
+
+a:not(nav a):hover {
+  border-bottom: 1px solid #FD5657;
+}
+</style>
