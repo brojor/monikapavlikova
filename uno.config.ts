@@ -14,6 +14,7 @@ export default defineConfig({
     fontFamily: {
       sans: 'Inter',
       heading: 'Playfair Display',
+      script: 'Great Vibes',
     },
   },
   rules: [

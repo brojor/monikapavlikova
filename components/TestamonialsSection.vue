@@ -21,7 +21,7 @@ const testimonials = [
       Reference
     </h2>
     <div class="flex flex-col md:flex-row gap-8">
-      <div v-for="testimonial in testimonials" :key="testimonial.name" class="bg-white p-8 rounded-md border border-accent/30">
+      <div v-for="testimonial in testimonials" :key="testimonial.name" class="bg-white p-8 rounded-md border border-accent/30 flex-1">
         <div class="flex flex-col items-center mb-8">
           <img :src="testimonial.image" alt="testimonial.name" class="rounded-full w-32 h-32 mb-4">
           <h3 class="text-2xl font-semibold">
