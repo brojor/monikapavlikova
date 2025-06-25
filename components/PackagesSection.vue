@@ -26,39 +26,41 @@ const packages = [
 </script>
 
 <template>
-  <section id="nabizim" class="px-4 py-12 md:p-16 bg-white text-slate-900 my-0 md:my-18">
-    <div class="mx-auto max-w-screen-xl flex flex-col flex-wrap md:flex-row gap-8 justify-center">
-      <div v-for="pkg in packages" :key="pkg.title" class="border border-[#EDDBC4] bg-[#F9F3EB] rounded-lg p-12">
-        <div class="flex flex-col items-center gap-4 h-full">
-          <div class="flex md:flex-col items-center gap-4 md:gap-6">
-            <div class="rounded-full p-4 bg-accent">
-              <component :is="pkg.icon" class="w-6 h-6 md:w-12 md:h-12 text-white" />
+  <BaseSection id="nabizim" title="Nabízím:">
+    <div>
+      <div class="flex flex-col md:flex-row gap-12">
+        <div v-for="pkg in packages" :key="pkg.title" class="border border-[#EDDBC4] bg-surface-even rounded-lg p-12 flex-1">
+          <div class="flex flex-col items-center gap-4 h-full">
+            <div class="flex md:flex-col items-center gap-4 md:gap-6">
+              <div class="rounded-full p-4 bg-accent">
+                <component :is="pkg.icon" class="w-6 h-6 md:w-12 md:h-12 text-white" />
+              </div>
+              <h3 class="text-2xl font-semibold">
+                {{ pkg.title }}
+              </h3>
             </div>
-            <h2 class="text-3xl font-semibold">
-              {{ pkg.title }}
-            </h2>
-          </div>
-          <div class="text-center flex-1">
-            <p class="mb-6 max-w-[26ch]">
-              {{ pkg.description }}
-            </p>
-          </div>
-          <div class="flex flex-col items-center">
-            <p class="text-4xl font-semibold">
-              {{ pkg.price }} Kč
-            </p>
-            <small class="text-xs text-slate-700">
-              za normostranu<sup>*</sup>
-            </small>
-            <button class="bg-accent hover:bg-accentHover text-white px-4 py-2 rounded-md mt-8">
-              Ozvěte se mi
-            </button>
+            <div class="text-center flex-1">
+              <p class="mb-6">
+                {{ pkg.description }}
+              </p>
+            </div>
+            <div class="flex flex-col items-center">
+              <p class="text-4xl font-semibold">
+                {{ pkg.price }} Kč
+              </p>
+              <small class="text-xs text-slate-700">
+                za normostranu<sup>*</sup>
+              </small>
+              <button class="bg-accent hover:bg-accentHover text-white px-4 py-2 rounded-md mt-8">
+                Ozvěte se mi
+              </button>
+            </div>
           </div>
         </div>
       </div>
-      <small class="text-xs text-slate-700 text-center flex-basis-full">
+      <small class="text-xs text-slate-700 text-center flex-basis-full mt-4 block">
         <sup>*</sup>Normostranou se rozumí 1800 znaků včetně mezer. Cena je uvedena včetně DPH.
       </small>
     </div>
-  </section>
+  </BaseSection>
 </template>

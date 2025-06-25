@@ -16,26 +16,20 @@ const testimonials = [
 </script>
 
 <template>
-  <section id="reference" class="px-4 py-12 md:p-16 bg-[#F9F3EB] text-slate-900">
-    <h2 class="text-3xl font-semibold text-center mb-16">
-      Reference
-    </h2>
-    <div class="flex flex-col md:flex-row gap-8">
-      <div v-for="testimonial in testimonials" :key="testimonial.name" class="bg-white p-8 rounded-md border border-accent/30 flex-1">
-        <div class="flex flex-col items-center mb-8">
-          <img :src="testimonial.image" alt="testimonial.name" class="rounded-full w-32 h-32 mb-4">
-          <h3 class="text-2xl font-semibold">
-            {{ testimonial.name }}
-          </h3>
-          <p class="text-sm text-slate-700">
-            {{ testimonial.title }}
-          </p>
-        </div>
-
-        <p class="testimonial-text" v-html="testimonial.text" />
+  <BaseSection id="reference" title="Reference:">
+    <div v-for="testimonial in testimonials" :key="testimonial.name" class="bg-surface-odd px-16 py-12 rounded-md border border-accent/30 flex-1">
+      <div class="flex flex-col items-center mb-8">
+        <img :src="testimonial.image" alt="testimonial.name" class="rounded-full w-32 h-32 mb-4">
+        <h3 class="text-2xl font-semibold">
+          {{ testimonial.name }}
+        </h3>
+        <p class="text-sm text-slate-700">
+          {{ testimonial.title }}
+        </p>
       </div>
+      <p class="testimonial-text" v-html="testimonial.text" />
     </div>
-  </section>
+  </BaseSection>
 </template>
 
 <style>
