@@ -1,8 +1,8 @@
 <template>
   <BaseSection id="o-mne" title="O mně:">
     <div class="flex-1">
-      <h3 class="text-xl md:text-2xl font-semibold mb-8 font-script mt-2">
-        Zdravím Vás, jsem Monča
+      <h3 class="text-lg font-semibold mb-8 mt-2">
+        Zdravím Vás, jsem Monča.
       </h3>
       <p class="max-w-prose">
         Jsem nadšený psavec, čtenář a mimo to i milující máma jedné malé neposedy.
