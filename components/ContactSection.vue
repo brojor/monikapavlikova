@@ -20,14 +20,8 @@ const contacts = [
   {
     icon: IconMail,
     title: 'Email',
-    link: 'mailto:pavlikova.monika92@seznam.cz',
-    text: 'pavlikova.monika92@seznam.cz',
-  },
-  {
-    icon: IconLocation,
-    title: 'Adresa',
-    link: 'https://maps.app.goo.gl/LLbS4U6NK827FzVm6',
-    text: 'Šumice 80, 671 75',
+    link: 'mailto:texty@monikapavlikova.cz',
+    text: 'texty@monikapavlikova.cz',
   },
 ]
 </script>
