@@ -13,7 +13,7 @@ export default defineConfig({
       'accentHover': '#FC2424',
     },
     fontFamily: {
-      sans: 'Inter',
+      sans: 'Calibri',
       heading: 'Playfair Display',
     },
   },
