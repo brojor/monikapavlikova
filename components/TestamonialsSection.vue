@@ -17,9 +17,9 @@ const testimonials = [
 
 <template>
   <BaseSection id="reference" title="Reference:">
-    <div v-for="testimonial in testimonials" :key="testimonial.name" class="bg-surface-odd px-16 py-12 rounded-md border border-accent/30 flex-1 relative">
+    <div v-for="testimonial in testimonials" :key="testimonial.name" class="bg-surface-odd px-8 md:px-16 py-12 rounded-md border border-accent/30 flex-1 relative">
       <div class="absolute top-0 left-0 p-4">
-        <IconQuote class="w-24 h-24 text-accent/50" />
+        <IconQuote class="w-16 h-16 md:w-24 md:h-24 text-accent/50" />
       </div>
       <div class="flex flex-col items-center mb-8">
         <img :src="testimonial.image" alt="testimonial.name" class="rounded-full w-32 h-32 mb-4">
@@ -30,26 +30,7 @@ const testimonials = [
           {{ testimonial.title }}
         </p>
       </div>
-      <p class="testimonial-text" v-html="testimonial.text" />
+      <p class="font-testimonial" v-html="testimonial.text" />
     </div>
   </BaseSection>
 </template>
-
-<style>
-.testimonial-text span {
-  font-size: 25px;
-  color: #FD5657;
-  line-height: 0.6;
-  font-family: 'Playfair Display', serif;
-}
-
-.testimonial-text span:first-child {
-  display: inline-block;
-  margin-right: 4px;
-}
-
-.testimonial-text span:last-child {
-  display: inline-block;
-  margin-left: 4px;
-}
-</style>

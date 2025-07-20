@@ -15,6 +15,7 @@ export default defineConfig({
     fontFamily: {
       sans: 'Inter',
       heading: 'Playfair Display',
+      testimonial: 'Nunito Sans',
     },
   },
   rules: [
