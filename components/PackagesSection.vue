@@ -59,7 +59,7 @@ const packages = [
         </div>
       </div>
       <small class="text-xs text-slate-700 text-center flex-basis-full mt-4 block">
-        <sup>*</sup>Normostranou se rozumí 1800 znaků včetně mezer. Cena je uvedena včetně DPH.
+        <sup>*</sup>Normostranou se rozumí 1800 znaků včetně mezer. Uvedené ceny jsou konečné.
       </small>
     </div>
   </BaseSection>

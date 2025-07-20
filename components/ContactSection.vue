@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import IconFacebook from './icon/Facebook.vue'
-import IconLocation from './icon/Location.vue'
 import IconMail from './icon/Mail.vue'
 import IconPhone from './icon/Phone.vue'
 
