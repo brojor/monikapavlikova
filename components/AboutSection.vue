@@ -20,7 +20,7 @@
         Pojďme do toho společně!
       </p>
     </div>
-    <div class="flex-1 rounded-lg overflow-hidden">
+    <div class="flex-1 rounded-lg overflow-hidden hidden md:block">
       <img src="/about-me.jpg" alt="Monča" class="w-full h-full object-cover">
     </div>
   </BaseSection>
